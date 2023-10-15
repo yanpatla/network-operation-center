@@ -1,3 +1,9 @@
-const pepe: string = "Pepe!!";
+import { Server } from "./presentation/server";
 
-console.log(pepe);
+(async () => {
+  main();
+})();
+
+function main() {
+  Server.start();
+}

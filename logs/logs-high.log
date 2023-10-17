@@ -1,0 +1,15 @@
+{"message":"TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:10.046Z"}
+{"message":"TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:15.007Z"}
+{"message":"TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:20.013Z"}
+{"message":"TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:25.016Z"}
+{"message":"TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:30.013Z"}
+{"message":"TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:35.007Z"}
+{"message":"http://localhost:3000 TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:45.047Z"}
+{"message":"http://localhost:3000 is not ok TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:50.041Z"}
+{"message":"http://localhost:3000 is not ok. TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:06:55.045Z"}
+{"message":"http://localhost:3000 is not ok. TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:07:00.019Z"}
+{"message":"http://localhost:3000 is not ok. TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:07:05.009Z"}
+{"message":"http://localhost:3000 is not ok. TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:07:10.014Z"}
+{"message":"http://localhost:3000 is not ok. TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:07:15.012Z"}
+{"message":"http://localhost:3000 is not ok. TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:07:20.020Z"}
+{"message":"http://localhost:3000 is not ok. TypeError: fetch failed","level":"high","createdAt":"2023-10-17T19:07:25.017Z"}

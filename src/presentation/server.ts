@@ -11,6 +11,8 @@ export class Server {
   public static start() {
     console.log("Server started...");
 
+    //* Send Email
+
     CronService.createJob("*/5 * * * * *", () => {
       const url: string = "https://google.com";
 

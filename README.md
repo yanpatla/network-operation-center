@@ -13,3 +13,5 @@ PROD=false
 
 ```
 3. Excecute the command ```npm install```
+
+4. Excecute the command ```npm run dev```

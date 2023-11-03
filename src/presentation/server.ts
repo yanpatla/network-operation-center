@@ -14,9 +14,9 @@ export class Server {
 
     //* Send Email
 
-    new sendEmailLogs(emailServices, fileSystemLogRepository).execute([
-      envs.EMAIL,
-    ]);
+    // new sendEmailLogs(emailServices, fileSystemLogRepository).execute([
+    //   envs.EMAIL,
+    // ]);
     // emailServices.sendEmailWithFileSystemLogs(["tomasleonpatlayan@gmail.com"]);
     // CronService.createJob("*/5 * * * * *", () => {
     //   const url: string = "https://google.com";

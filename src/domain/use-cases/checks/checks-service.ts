@@ -34,7 +34,7 @@ export class CheckService implements ICheckServiceUseCase {
       const message = `Service ${url} working`;
 
       const options: LogEntityOptions = {
-        level: LogSeverityLevel.high,
+        level: LogSeverityLevel.low,
         message: message,
         origin: currentFileName,
       };

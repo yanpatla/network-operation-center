@@ -28,7 +28,8 @@ export class LogEntity {
   }
 
   //* Yo estaria recibiendo esto "{"level":"low","message":"Hola Mundo", "createdAt":"12314123"}"
-  static fromJson = (json: string): LogEntity => {
+  static fromJson = (json: string = ""): LogEntity => {
+    json = json === "" ? "{}" : json;
     const { message, level, createdAt, origin } = JSON.parse(json);
     const log = new LogEntity({
       message,

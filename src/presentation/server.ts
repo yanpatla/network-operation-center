@@ -25,8 +25,8 @@ export class Server {
     // ]);
     // emailServices.sendEmailWithFileSystemLogs(["tomasleonpatlayan@gmail.com"]);
 
-    const logs = await logRepository.getLogs(LogSeverityLevel.low);
-    console.log(logs);
+    // const logs = await logRepository.getLogs(LogSeverityLevel.low);
+    // console.log(logs);
 
     // CronService.createJob("*/5 * * * * *", () => {
     //   const url: string = "https://gdoogle.com";

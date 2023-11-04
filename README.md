@@ -12,6 +12,7 @@ MAILER_SECRET_KEY=
 PROD=false
 
 ```
-3. Excecute the command ```npm install```
 
-4. Excecute the command ```npm run dev```
+3. Excecute the command `npm install`
+4. Run db `docker compose up -d`
+5. Excecute the command `npm run dev`

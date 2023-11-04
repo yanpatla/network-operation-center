@@ -4,14 +4,15 @@ import { CheckService } from "../domain/use-cases/checks/checks-service";
 import { sendEmailLogs } from "../domain/use-cases/email/send-email-logs";
 import { FileSystemDataSource } from "../infrastructure/datasources/file-system.datasource";
 import { MongoLogDatasource } from "../infrastructure/datasources/mongo-log.datasource";
+import { PostgresLogDatasource } from "../infrastructure/datasources/postgres-log.datasource";
 import { LogRepositoryImpl } from "../infrastructure/repositories/log.repository.impl";
 import { CronService } from "./cron/cron-service";
 import { EmailServices } from "./email/email.services";
 
 const logRepository = new LogRepositoryImpl(
-  new FileSystemDataSource()
-
-  // new MongoLogDatasource()
+  // new FileSystemDataSource(),
+  // new MongoLogDatasource(),
+  new PostgresLogDatasource()
 );
 const emailServices = new EmailServices();
 export class Server {
@@ -29,7 +30,7 @@ export class Server {
     // console.log(logs);
 
     // CronService.createJob("*/5 * * * * *", () => {
-    //   const url: string = "https://gdoogle.com";
+    //   const url: string = "https://google.com";
 
     //   new CheckService(
     //     logRepository,

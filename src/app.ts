@@ -13,5 +13,5 @@ async function main() {
     dbName: envs.MONGO_DB_NAME,
   });
 
-  //  Server.start();
+  Server.start();
 }
